@@ -6,7 +6,8 @@ The following program will run through the prothom-alo archive and scrape the ti
 The crawler.py file uses the scraper.py file as a module and generates urls for the module to scrape data from. Entire code is very straight forward. Let me know if you have any query.
 
 ### How to use
-You can run the program in two ways. 
+You can run the program in two ways. But before both create a folder "output".
+`mkdir output`
 
 1. Run from terminal with dates as parameters. 
 
