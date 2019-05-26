@@ -11,7 +11,7 @@ def startCrawling(date1, date2):
         date2 = temp
     pagenumber = 1
     while date1 <= date2:
-        currenturl = 'https://www.prothomalo.com/archive/'+date1.strftime('%Y-%m-%d'+'?page='+str(pagenumber))
+        currenturl = 'https://www.prothomalo.com/archive/'+date1.strftime('%Y-%m-%d')+'?page='+str(pagenumber)
         print("Currently fetching address: ", currenturl)        
         nextpage = scrapper.scrap(currenturl, date1.strftime('%Y-%m-%d'))
         if nextpage:
