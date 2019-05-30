@@ -14,7 +14,10 @@ The crawler.py file uses the scraper.py file as a module and generates urls for 
 
 ### How to use
 You can run the program in two ways. But before both create a folder "output".
-`mkdir output`
+
+```
+mkdir output
+```
 
 1. Run from terminal with dates as parameters. 
 
