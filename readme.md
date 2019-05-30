@@ -1,5 +1,12 @@
 # Read this carefully
 
+### Requirement
+Python 3.6+
+
+### Installation
+Install the dependency using 
+`pip install -r requirement.txt`
+
 ### Description
 The following program will run through the prothom-alo archive and scrape the titles out of the pages and save it in a text file. 
 
