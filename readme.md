@@ -47,3 +47,6 @@ Then run
 > `python merge.py` 
 
 This will merge all the news files into one single file out.txt 
+
+### Note
+A in between request sleep time has been added. This is to avoid server from automatically detect and ban the ip as anomalous requester. As of my setup after each url crawl the system will wait `300ms` before making the next craw request. And after every `50` request it will sleep for `10s`. This is a safety measure. You can adjust it or remove it (if the server does not kick out).
